@@ -2,9 +2,9 @@ class MacosFresh < Formula
     include Language::Python::Virtualenv
     desc 'macos-fresh'
     homepage 'https://github.com/d3v1an7/macos-fresh'
-    url 'https://github.com/d3v1an7/macos-fresh/releases/download/0.19.0/macos_fresh-0.19.0.tar.gz'
-    sha256 '9721e23b71902932df5b868ffaaaf1d183c1bf993988b9b0cb8cc2bde92dd7b3'
-    version '0.19.0'
+    url 'https://github.com/d3v1an7/macos-fresh/releases/download/0.20.0/macos_fresh-0.20.0.tar.gz'
+    sha256 '127eeb0a9c5b757bc3cc39bea3596fce1b6ba9118ebfa48aa16caa53b087c17d'
+    version '0.20.0'
     depends_on 'python@3.11'
     def install
       venv = virtualenv_create(libexec, 'python3')
