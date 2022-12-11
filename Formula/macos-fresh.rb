@@ -1,4 +1,4 @@
-class MacOSFresh < Formula
+class MacosFresh < Formula
     include Language::Python::Virtualenv
     desc 'macos-fresh'
     homepage 'https://github.com/d3v1an7/macos-fresh'
