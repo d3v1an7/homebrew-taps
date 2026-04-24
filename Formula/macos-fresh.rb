@@ -8,6 +8,7 @@ class MacosFresh < Formula
 
   def install
     libexec.install "dist/fresh.mjs"
+    prefix.install "package.json"
     (bin/"fresh").write <<~EOS
       #!/bin/sh
       exec "#{Formula["node"].opt_bin}/node" "#{libexec}/fresh.mjs" "$@"
