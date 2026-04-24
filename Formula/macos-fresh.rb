@@ -1,8 +1,8 @@
 class MacosFresh < Formula
   desc "Super opinionated tools, apps and defaults for macOS"
   homepage "https://github.com/d3v1an7/macos-fresh"
-  url "https://github.com/d3v1an7/macos-fresh/releases/download/1.0.6/macos-fresh-1.0.6.tar.gz"
-  sha256 "a7c14486bdca217545c83ac99811c016ab9d15741649f41d7bba5247b8427ad0"
+  url "https://github.com/d3v1an7/macos-fresh/releases/download/1.0.7/macos-fresh-1.0.7.tar.gz"
+  sha256 "2a510e1873a2c68a91d3afdcb70c91dd299936f43724184768f6f54bb9df77a9"
   license "GLWTPL"
   depends_on "node"
 
